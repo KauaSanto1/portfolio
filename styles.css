@@ -1,0 +1,115 @@
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.experience-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: scale(1.05); /* Cresce ao passar o mouse */
+}
+
+/* A animação de rotação será aplicada apenas à imagem com a classe 'coin-image' */
+.coin-image {
+    width: 80px;
+    height: 80px;
+    animation: rotate 4s linear infinite; /* Animação de rotação */
+    border-radius: 50%; /* Para garantir que a imagem continue redonda */
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Configuração padrão de cores */
+body {
+    background-color: #433878;
+    color: #fff; /* Ajustando a cor do texto para contrastar com o fundo */
+    font-family: Arial, sans-serif;
+    transition: background-color 1s ease; /* Transição suave para o fundo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #7E60BF;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.experience-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.experience-card {
+    background-color: #594CA6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: scale(1.05); /* Cresce ao passar o mouse */
+}
+
+.experience-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.experience-card h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.experience-card p {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 1rem;
+}
+
+footer {
+    width: 100%;
+    background-color: #7E60BF;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1rem;
+}
