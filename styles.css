@@ -94,7 +94,7 @@ nav ul li a:hover {
 }
 
 .scroll-down img:hover {
-    transform: scale(1.2); /* Cresce quando o mouse está sobre a seta */
+    transform: scale(1.5); /* Cresce quando o mouse está sobre a seta */
 }
 
 /* Seção Sobre Mim */
